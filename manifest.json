@@ -1,0 +1,54 @@
+{
+  "name": "Vocad",
+
+  "version": "0.1",
+  
+  "description": "Remember the words which everybody knows except you!",
+  
+  "permissions": [
+    "activeTab",
+    "storage"
+    ],
+
+  "chrome_url_overrides": {
+    "newtab": "newTab.html"
+  },
+
+  "browser_action": {
+      "default_icon": {
+        "16": "images/dictionary16.png",
+        "32": "images/dictionary32.png",
+        "48": "images/dictionary48.png",
+        "128": "images/dictionary128.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Wordcab"
+  },
+
+  // "background": {
+  //   "scripts": [
+  //     "scripts/scripts1.js"
+  //   ],
+  //   "persistent": false
+  // },
+
+  // "page_action": {
+  //   "default_popup": "popup.html",
+  //   "default_icon": {
+  //     "16": "images/dictionary16.png",
+  //     "32": "images/dictionary32.png",
+  //     "48": "images/dictionary48.png",
+  //     "128": "images/dictionary128.png"
+  //   }
+    
+  // },
+
+  "icons": {
+        "16": "images/dictionary16.png",
+        "32": "images/dictionary32.png",
+        "48": "images/dictionary48.png",
+        "128": "images/dictionary128.png"
+      },
+
+  "manifest_version": 2
+}
